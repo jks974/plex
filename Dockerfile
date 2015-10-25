@@ -1,5 +1,5 @@
-FROM ubuntu:15.10
-#FROM jks974/baseimage
+#FROM ubuntu:15.10
+FROM jks974/baseimage
 
 MAINTAINER Jks
 
