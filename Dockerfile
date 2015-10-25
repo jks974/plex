@@ -1,5 +1,7 @@
 FROM jks974/baseimage
 
+MAINTAINER Jks
+
 #this is a test from wernight/docker-plex-media-server
 
 # Install required packages
