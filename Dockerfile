@@ -1,4 +1,4 @@
-FROM ubuntu:15.10
+FROM jks974/baseimage
 
 #this is a test from wernight/docker-plex-media-server
 
