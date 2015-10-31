@@ -20,7 +20,7 @@ RUN chmod +x /bin/start
 # This gets the latest non-plexpass version
 #RUN curl -L https://downloads.plex.tv/plex-media-server/0.9.12.3.1173-937aac3/plexmediaserver_0.9.12.3.1173-937aac3_amd64.deb -o plexmediaserver.deb
 #RUN curl -L https://downloads.plex.tv/plex-media-server/0.9.12.13.1464-4ccd2ca/plexmediaserver_0.9.12.13.1464-4ccd2ca_amd64.deb -o plexmediaserver.deb
-RUN curl -L https://downloads.plex.tv/plex-media-server/0.9.12.18.1520-6833552/plexmediaserver_0.9.12.18.1520-6833552_amd64.deb
+RUN curl -L https://downloads.plex.tv/plex-media-server/0.9.12.18.1520-6833552/plexmediaserver_0.9.12.18.1520-6833552_amd64.deb -o plexmediaserver.deb
 RUN dpkg -i plexmediaserver.deb
 RUN rm -f plexmediaserver.deb
 
